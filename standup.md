@@ -29,5 +29,5 @@ Take feedback at the end of the stand-up to see how to make the next meeting mor
     *Everyone should have videos on
     *Presentation/Software to present should be accessible by everyone
     *All files shared before stand-up
-    *Make sure the recording is on for team members not present. 
+    *Make sure the recording is on for team members not present
 
