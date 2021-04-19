@@ -4,13 +4,44 @@
   padding: 1;
 }
 
-#quicklink{
+h1{
+    font-size: 1.2em;
+}
 
+p, h4{
+    font-size: 1em;
+}
+
+#quicklink{
     color: blue;
 }
 
 a:hover {
     background-color: gold;
+}
+
+head[title]{
+    color: black;
+}
+
+li {
+    list-style-type: disc;
+}
+  
+li li {
+    list-style-type: circle;
+}
+
+.saturday > span {
+    text-decoration: underline;
+}
+
+h4 ~ p {
+    font-size: 1.1em;
+}
+
+audio + p {
+    color: red;
 }
 
 .flex-container {
@@ -38,7 +69,7 @@ a:hover {
     text-align: center;
 }
 
-.grid-container {
+div.grid-container {
     font-family: 'Antonio', sans-serif;    display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
@@ -60,5 +91,5 @@ a:hover {
       float: none;
       width: 100%;
     }
-  }
+}
 
